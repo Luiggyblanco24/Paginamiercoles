@@ -1,0 +1,51 @@
+body{
+    background-color: blue;
+}
+#title_box{
+    color: rgb(17, 19, 10);
+    background-color: rgb(196, 233, 221);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: lowercase;
+    margin: 10px 20px 15px 25px;
+    border: 3px dotted;
+    border-radius: 10px;
+    padding: 50px;
+    word-spacing: 15px;
+    letter-spacing: 8px;
+    font-size: 30px;
+    box-shadow: 0px 0px 10px 2px;
+    -webkit-box-shadow: -18px -41px 0px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -18px -41px 0px -2px rgba(0,0,0,0.75);
+    box-shadow: -18px -41px 0px -2px rgba(0,0,0,0.75);
+}
+#box_fater{
+    background-color: rgb(100, 31, 31);
+    width: 200px;
+    height: 200px;
+    background-image: url(https://img.freepik.com/vector-gratis/chico-lindo-jugando-futbol-dibujos-animados-vector-icono-ilustracion-concepto-icono-deporte-personas-aislado-vector-premium-estilo-dibujos-animados-plana_138676-4055.jpg?w=2000) ;
+    background-position: center ;
+    background-size: cover;
+}
+/*#box-model{
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+}*/
+/*aplicacion de media querin*/
+@media (min-width:800px) and (max-width:1200px){
+    body{
+        background-color: rgb(0, 217, 255);
+    }
+    #title_box{
+        text-align: left;
+    }
+}
+@media (max-width:799px){
+    body{
+        background-image: url(https://img.freepik.com/vector-gratis/chico-lindo-jugando-futbol-dibujos-animados-vector-icono-ilustracion-concepto-icono-deporte-personas-aislado-vector-premium-estilo-dibujos-animados-plana_138676-4055.jpg?w=2000) ;
+        background-position: center ;
+        background-size: cover ;
+        background-repeat: no-repeat ;
+    }
+}
