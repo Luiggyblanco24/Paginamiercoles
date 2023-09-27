@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .title_box{
+            background-color: aqua;
+            text-align: center;
+        }
+        #father{
+           height: 100vh;
+            /*display: grid;
+        place-items: center;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        }
+        #son, #son_one, #son_two, #son_theree{
+            background-color: black;
+            height: 200px;
+            width: 200px;
+            border-radius: 10px;
+            margin: 0 20px;
+            border-color: black;
+           
+
+        }
+        #son_one{
+            background-color: aqua;
+            transform: rotate(45deg);
+        }
+        #son_two{
+            border-radius: 50%;
+            background-color: blue;
+            transform: scale(1.2);
+        }
+        #son_theree{
+            background-color: blueviolet;
+            transform: skew(-5deg,-10deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title_box">
+            <h2>CLASS FLEXBOX</h2>
+
+        </div>
+        <div id="father">
+            <div id="son">  </div>
+            <div id="son_one">  </div>
+            <div id="son_two">  </div>
+            <div id="son_theree">  </div>
+        </div>
+    </div>
+</body>
+</html>
