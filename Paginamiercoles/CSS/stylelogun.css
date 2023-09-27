@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300;1,400&family=Roboto:ital,wght@1,500&display=swap");
+
+:root{
+    --primary: #dd946f;
+    --primary-hover: #dd946f;
+    --secondary: #efd0f8;
+    --secondary-hover: #efd0f8;
+    --aura:#9265ca80;
+    background: #261e5a;
+}
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background);
+    font-family: mulish;
+}
+h1{
+    color: var(--secondary);
+}
+.background{
+    content: " ";
+    position: absolute;
+    height: 100vh;
+    width: 200vw;
+    display: grid;
+    place-items: center;
+    /*background-image: url(https://img.freepik.com/vector-gratis/patron-espacio-transparente-color_102902-2360.jpg);*/
+    background-repeat: no-repeat;
+    background-size: auto;
+    opacity: 0.5;
+}
+.centering{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+}
+.my_form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 16px;
+    background-color: var(--background);
+    border: 1px solid var(--primary);
+    border-radius: 16px;
+    box-shadow: 0 20px 60px var(--aura);
+    min-width: 280px;
+    max-width: 460px;
+    width: 100%;
+    padding: 32px;
+}
+.login{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.login_welcome{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+.my_form_button{
+    background-color: var(--primary);
+    color: var(--background);
+    white-space: nowrap;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    line-height: 50px;
+    margin-top: 16px;
+    line-height: 50px;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: none;
+    cursor: pointer;
+    font-weight: 800px;
+    min-height: 50px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+.text_file{
+    color: var(--secondary);
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid var(--secondary);
+    height: 50px;
+    letter-spacing: .03rem;
+    background-color: transparent;
+    outline: none;
+    transition: .25s;
+    border-radius: 8px;
+    text-indent: 20px;
+    margin-top: 8px;
+}
+.my_form_button:hover{
+    position: relative;
+}
+.text_field{
+    position: relative;
+}
+.text_field img{
+    position: absolute;
+    right: -2px;
+    bottom: ;
+}
